@@ -165,6 +165,7 @@ class MatrixUtils {
     public static double[][] inputMatrix(Scanner scanner, String name) {
         System.out.print("Enter the number of rows for " + name + ": ");
         int rows = scanner.nextInt();
+        scanner.nextLine();
         System.out.print("Enter the number of columns for " + name + ": ");
         int cols = scanner.nextInt();
 
