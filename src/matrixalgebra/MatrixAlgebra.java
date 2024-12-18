@@ -1,4 +1,19 @@
 
+                        // ========================
+                        // |Matrix Algebra Program|
+                        // ========================
+
+                        // **************************
+                        // *Project: Linear Algebra *
+                        // *Group member:		    *
+                        // *Awder Mohammed	 	    *
+                        // *Akar Omer		        *
+                        // *Akar Walid	        	*
+                        // *Mohammed Jihan	    	*
+                        // **************************
+
+
+
 package matrixalgebra;
 
 import java.util.Scanner;
