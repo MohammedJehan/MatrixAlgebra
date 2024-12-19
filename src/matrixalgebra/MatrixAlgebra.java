@@ -171,7 +171,6 @@ class MatrixOperations {
 
     public static void findEigenValuesAndVectors(Scanner scanner) {
         System.out.println("Finding Eigenvalues and Eigenvectors (Not yet implemented)");
-        // Placeholder for future implementation.
     }
 }
 
@@ -292,7 +291,7 @@ class MatrixUtils {
     public static double[][] calculateInverse(double[][] matrix) {
         double determinant = calculateDeterminant(matrix);
         if (determinant == 0) {
-            return null; // Singular matrix
+            return null; 
         }
         int size = matrix.length;
         double[][] adjugate = new double[size][size];
@@ -341,7 +340,7 @@ class MatrixUtils {
             augmentedMatrix[max] = temp;
 
             if (Math.abs(augmentedMatrix[i][i]) <= 1e-10) {
-                return null; // No unique solution
+                return null;
             }
 
             for (int j = i + 1; j < n; j++) {
